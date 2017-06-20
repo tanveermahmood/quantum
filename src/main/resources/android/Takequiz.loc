@@ -1,0 +1,15 @@
+Takequiz.strt.btn = {\"locator\":\"xpath=//android.widget.Button[@text='Start']\",\"desc\":\"click on start button\"}
+Takequiz.title.txt = {\"locator\":\"xpath=//android.widget.TextView[@text='Take a quiz']\",\"desc\":\"verify text\"}
+Takequiz.icon.btn = {\"locator\":\"xpath=//android.widget.ImageButton[@resource-id='com.jquiz.act:id/btnWhiteboard']\",\"desc\":\"click on icon\"}
+Takequiz.quesinfo.txt = {\"locator\":\"xpath=.//android.widget.TextView[@instance='4']\",\"desc\":\"ques text\"}
+Takequiz.bookmark.link = {\"locator\":\"xpath=//android.widget.TextView[@instance='3']\",\"desc\":\"bookmark link\"}
+Takequiz.back.btn = {\"locator\":\"xpath=//*[@resource-id='android:id/up']\",\"desc\":\"android.widget.ImageView\"}
+Takequiz.bookmark.btn = {\"locator\":\"xpath=//android.widget.TextView[@text='Bookmark']\",\"desc\":\"clicking on bookmark option\"}
+Takequiz.Yes.btn = {\"locator\":\"xpath=//android.widget.Button[@text='Yes']\",\"desc\":\"accepting close alert\"}
+Takequiz.English_act.btn = {\"locator\":\"xpath=//android.widget.TextView[@text='ACT English']\",\"desc\":\"click on english_act button\"}
+Takequiz.view.btn = {\"locator\":\"xpath=//android.widget.TextView[@text='View']\",\"desc\":\"click on view button\"}
+Takequiz.bookmarked.btn = {\"locator\":\"xpath=//android.widget.TextView[@text='Bookmarked']\",\"desc\":\"click on bookmark button\"}
+Takequiz.whiteboard.title = {\"locator\":\"xpath=//android.widget.TextView[@text='White board']\",\"desc\":\"verify whiteboard is present\"}
+Takequiz.note.title = {\"locator\":\"xpath=//android.widget.TextView[@text='Note']\",\"desc\":\"verify note is present\"}
+Takequiz.web.title = {\"locator\":\"xpath=//android.widget.TextView[@text='Web']\",\"desc\":\"verify web is present\"}
+Takequiz.verifyques.txt = {\"locator\":\"xpath=//android.widget.ListView//android.widget.RelativeLayout//android.widget.TextView\",\"desc\":\"verify text\"}

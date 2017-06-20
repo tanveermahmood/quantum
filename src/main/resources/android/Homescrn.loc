@@ -1,0 +1,3 @@
+Homesrcn.loader = {\"locator\":\"id=com.jquiz.act:id/tvLoading\",\"desc\":\"App loading bar\"}
+Homescrn.quiz.lst = {\"locator\":\"//android.widget.ImageView\",\"desc\":\"list of quiz\"}
+Homescrn.collection.btn = {\"locator\":\"xpath=//android.widget.ImageView[@instance='6']\",\"desc\":\"collection btn\"}

@@ -1,0 +1,4 @@
+attemptquestionspage.list.questions = {\"locator\":\"//android.widget.HorizontalScrollView//android.widget.TextView\"}
+attemptquestionspage.list.answers = {\"locator\":\"//android.widget.ListView//android.widget.TextView[@text='%s']\",\"desc\":\"TextView for A\"}
+attemptquestionspage.button.finish = {\"locator\":\"id=com.jquiz.act:id/btn_finish\",\"desc\":\"Button for Finish\"}
+attemptquestionspage.summary.result = {\"locator\":\"id=com.jquiz.act:id/tvTitle\",\"desc\":\"TextView for Correct 110\"}

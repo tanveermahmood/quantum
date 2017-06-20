@@ -1,0 +1,40 @@
+
+SCENARIO: scenario1
+META-DATA: {"description":"Bookmark a Question","groups":["P1","P2","SMOKE"]}
+	
+	Given user opens ACT Test application
+	And user Select any quiz and Verify Take a quiz screen
+	And user Click Start button
+	And user Get question info
+	Then user Click on bookmark icon and bookmark question and Go Back
+	Then user Navigate to Your Collections screen
+ 	Then user Select previously selected quiz type and Click on View button on top right corner and select Bookmarked option
+	And user Verify bookmarked question displayed in list
+
+	
+END
+
+SCENARIO: scenario2
+META-DATA: {"description":"Take a quiz","groups":["P1","P2","SMOKE"]}
+	
+	Given user opens ACT Test application
+	And user Select any quiz and Verify Take a quiz screen
+	And user Select number of questions 10 & click on Start.
+	Then user  Give all 10 questions answer randomly & also store correct answer count. Click finish button.
+	And user Verify correct answer count on summary page.
+
+	
+END
+
+SCENARIO: scenario3
+META-DATA: {"description":"Search in Web","groups":["P1","P2","SMOKE"]}
+	
+	Given user opens ACT Test application
+	And user Select any quiz and Verify Take a quiz screen
+	And user Click icon in middle left side of screen
+	Then user Verify side bar opens with Note, Whiteboard and web tabs
+	Then user Click on Web tab and go to google.com
+	And user Search for InfoStretch and Verify Infostretch website link is listed in search results
+
+	
+END
